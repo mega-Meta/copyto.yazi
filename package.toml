@@ -2,7 +2,7 @@
 name        = "copyto"
 version     = "0.1.0"
 description = "A powerful Yazi plugin to copy/move files to any directory globally using FZF with conflict resolution."
-homepage    = "https://github.com"
+homepage    = "https://github.com/mega-Meta/copyto.yazi/"
 authors     = [ "Orzxd One <orzxdone@gmail.com>" ]
 license     = "MIT"
 yazi        = ">=26.8.15"
