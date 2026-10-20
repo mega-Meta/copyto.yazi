@@ -141,12 +141,12 @@ local function report(urls)
 end
 
 return {
-	entry = function(job)
+	entry = function( self , job )
 		ya.emit("escape", { visual = true })
 
 		local op_type = "copy"
-		if job and job.args and job.args then
-			op_type = job.args
+		if job and job.args then
+			op_type = tostring(job.args[1])
 		end
 		
 		local cmd = (op_type == "move") and "mv" or "cp"
