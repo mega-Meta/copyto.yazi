@@ -26,12 +26,12 @@ Add the following shortcuts to your `~/.config/yazi/keymap.toml`:
 ```toml
 [[manager.keymap]]
 on   = [ "c", "t" ]
-run  = "plugin copyto --args='copy'"
+run  = "plugin copyto copy"
 desc = "FZF 挑選目錄並【複製】檔案or目錄"
 
 [[manager.keymap]]
 on   = [ "m", "t" ]
-run  = "plugin copyto --args='move'"
+run  = "plugin copyto move"
 desc = "FZF 挑選目錄並【移動】檔案or目錄"
 ```
 
